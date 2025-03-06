@@ -41,6 +41,7 @@ export function getSnakeHead() {
     return snakeBody[0];
 }
 
+
 export function snakeIntersection() {
     return onSnake(snakeBody[0], {ignoreHead: true});
 }
